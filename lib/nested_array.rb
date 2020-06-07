@@ -41,7 +41,7 @@ def sorted_matrix
   "Eggplant"
   ]
   
-  ORGANIC_PRODUCE = [
+  organic_produce = [
   "Strawberries",
   "Potatoes",
   "Grapes",
@@ -52,7 +52,7 @@ def sorted_matrix
   
   CONVENTIONAL_PRODUCE_SORTED = conventional_produce.sort 
   
-  ORGANIC_PRODUCE_SORTED = 
+  ORGANIC_PRODUCE_SORTED = organic_produce.sort
   
   storage_room = [
     CONVENTIONAL_PRODUCE_SORTED,

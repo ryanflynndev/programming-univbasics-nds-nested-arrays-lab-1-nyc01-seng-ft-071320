@@ -33,30 +33,26 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-   = [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-  ]
-  
-  organic_produce = [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-  ]
+
 
   
-  CONVENTIONAL_PRODUCE_SORTED = conventional_produce.sort 
-  
-  ORGANIC_PRODUCE_SORTED = organic_produce.sort
-  
   storage_room = [
-    CONVENTIONAL_PRODUCE_SORTED,
-    ORGANIC_PRODUCE_SORTED
+    [
+    "Strawberries",
+    "Potatoes",
+    "Grapes",
+    "Avocadoes",
+    "Asparagus"
+    ].sort,
+    
+    [
+    "Grapefruit",
+    "Pineapple",
+    "Oranges",
+    "Watermelon",
+    "Eggplant"
+    ].sort
+
   ] 
 
   
